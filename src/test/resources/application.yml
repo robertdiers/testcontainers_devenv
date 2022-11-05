@@ -1,0 +1,8 @@
+spring:
+  datasource:
+    #url: jdbc:postgresql://localhost:5432/postgres
+    url: jdbc:h2:mem:test;MODE=PostgreSQL
+    #username: testuser
+    username: sa
+    #password: testpassword
+    password: 

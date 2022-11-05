@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: testuser
+    password: testpassword
+s3:
+  url: http://localhost:29000
+  username: minio-root-user
+  password: minio-root-password
+testmode: true
